@@ -14,4 +14,25 @@ I hope this helps
 https://phoenixnap.com/kb/install-node-js-npm-on-windows
 https://stackoverflow.com/questions/29778121/powershell-is-not-recognized-as-an-internal-or-external-command-operable-progr
 
+PS C:\Users\azuredevops> cd .\myagent\
+PS C:\Users\azuredevops\myagent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win-x64-2.182.1.zip", "$PWD")
+PS C:\Users\azuredevops\myagent> dir
+
+
+    Directory: C:\Users\azuredevops\myagent
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/23/2022  11:35 AM                bin
+d-----         3/23/2022  11:35 AM                externals
+-a----         2/11/2021   3:02 PM           2967 config.cmd
+-a----         2/11/2021   3:02 PM           3190 run.cmd
+
+
+PS C:\Users\azuredevops\myagent>
+
+
+
+
 
