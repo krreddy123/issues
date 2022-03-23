@@ -1,4 +1,4 @@
-https://stackoverflow.com/questions/56459754/windows-machine-file-copy-devops-task-and-ip-address
+1. https://stackoverflow.com/questions/56459754/windows-machine-file-copy-devops-task-and-ip-address
 
 This is the solution that worked for me:
 
@@ -7,3 +7,11 @@ Instead of running an agent job, I ran a Deployment Group Job. With deployment g
 I created a Windows Machine File Copy task under the Deployment Group job I added. I filled same details for the task except that instead of the IP address of the Windows VM, I entered the computer name in the Machines field and the file copy task ran successfully!
 
 I hope this helps
+
+====================================================================================
+2.##[error]No agent found in pool Default which satisfies the specified demands: npm, Agent.Version -gtVersion 2.182.1
+====================================================================================
+https://phoenixnap.com/kb/install-node-js-npm-on-windows
+https://stackoverflow.com/questions/29778121/powershell-is-not-recognized-as-an-internal-or-external-command-operable-progr
+
+
