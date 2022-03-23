@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/56459754/windows-machine-file-copy-devops-task-and-ip-address
+
+This is the solution that worked for me:
+
+Instead of running an agent job, I ran a Deployment Group Job. With deployment groups, I didn't need an IP address to connect to my VM. Setting up a deployment group for your Azure VM is very simple and well explained here
+
+I created a Windows Machine File Copy task under the Deployment Group job I added. I filled same details for the task except that instead of the IP address of the Windows VM, I entered the computer name in the Machines field and the file copy task ran successfully!
+
+I hope this helps
