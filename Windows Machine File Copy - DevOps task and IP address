@@ -32,6 +32,15 @@ d-----         3/23/2022  11:35 AM                externals
 
 PS C:\Users\azuredevops\myagent>
 
+
+***************************************************************
+Oracle credentials:
+
+Username - krreddy.logic@gmail.com
+Password - 08ur1A0237@
+
+***************************************************************
+
 *****************************************************************************************
 Links for Jenkins Pipeline to deploy ASP .Net MVC Applications at SCM to local IIS Server
 *****************************************************************************************
