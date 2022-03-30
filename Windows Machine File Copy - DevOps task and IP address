@@ -61,8 +61,13 @@ https://www.jenkins.io/doc/book/pipeline/getting-started/(Jenkins study)
 https://github.com/nkovacic/Sample-ASP.NET-project
 https://my.visualstudio.com/Downloads?q=visual%20studio%202015&wt.mc_id=o~msft~vscom~older-downloads
 
+Auto deploy .Net application to Local machine IIS using Jenkins:
+================================================================
+https://stackoverflow.com/questions/52143436/auto-deploy-net-application-to-local-machine-iis-using-jenkins
 
 
+"C:\Program Files\IIS\Microsoft Web Deploy V3\msdeploy.exe" -verb=sync -source:package="C:\Users\robin.j.jenkins\workspace\DotNetMVCTFS\JenkinsPOC\obj\Release\Package\JenkinsPOC.zip" -dest:auto -setParam:"IIS Web Application Name"="Default Web Site" -allowUntrusted=true
+The above batch command works!! No need to specify destination server name for local while publishing web deploy package.
 
 
 
