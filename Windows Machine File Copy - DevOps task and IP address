@@ -70,4 +70,4 @@ https://stackoverflow.com/questions/52143436/auto-deploy-net-application-to-loca
 The above batch command works!! No need to specify destination server name for local while publishing web deploy package.
 
 https://santexgroup.com/blog/continuous-delivery-using-asp-net-mvc4-web-api/
-
+https://muktak.com/continuous-deployment-of-net-projects-using-jenkins/
