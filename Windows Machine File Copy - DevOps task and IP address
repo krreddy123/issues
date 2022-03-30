@@ -69,5 +69,5 @@ https://stackoverflow.com/questions/52143436/auto-deploy-net-application-to-loca
 "C:\Program Files\IIS\Microsoft Web Deploy V3\msdeploy.exe" -verb=sync -source:package="C:\Users\robin.j.jenkins\workspace\DotNetMVCTFS\JenkinsPOC\obj\Release\Package\JenkinsPOC.zip" -dest:auto -setParam:"IIS Web Application Name"="Default Web Site" -allowUntrusted=true
 The above batch command works!! No need to specify destination server name for local while publishing web deploy package.
 
-
+https://santexgroup.com/blog/continuous-delivery-using-asp-net-mvc4-web-api/
 
