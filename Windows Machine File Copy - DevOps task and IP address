@@ -78,3 +78,13 @@ Jfrog directory:
 
 username - admin
 Password - Azuredevops@123
+
+
+=============================
+How to add archive path to jenkins pipeline.
+
+https://huongdanjava.com/archive-the-artifacts-in-jenkins.html
+
+
+
+
